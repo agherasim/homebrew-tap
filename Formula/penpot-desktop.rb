@@ -1,10 +1,10 @@
-# Rendered by .github/workflows/release.yml on tag pushes (2.17.1/d6e8f3cfab3e56c2a6795036691307acb6dd8885d8955900ed894254296fd840)
+# Rendered by .github/workflows/release.yml on tag pushes (2.17.1.1/e0567d55aac83985ef4ccb22018fae6e240ba404e3f0dd04c50056526b841ad2)
 # and pushed to the agherasim/homebrew-tap repo.
 class PenpotDesktop < Formula
   desc "Menu bar launcher for a self-hosted Penpot stack on Docker"
   homepage "https://github.com/agherasim/penpot-desktop"
-  url "https://github.com/agherasim/penpot-desktop/archive/refs/tags/v2.17.1.tar.gz"
-  sha256 "d6e8f3cfab3e56c2a6795036691307acb6dd8885d8955900ed894254296fd840"
+  url "https://github.com/agherasim/penpot-desktop/archive/refs/tags/v2.17.1.1.tar.gz"
+  sha256 "e0567d55aac83985ef4ccb22018fae6e240ba404e3f0dd04c50056526b841ad2"
   head "https://github.com/agherasim/penpot-desktop.git", branch: "main"
 
   depends_on :macos
