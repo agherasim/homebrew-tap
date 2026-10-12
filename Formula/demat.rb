@@ -4,8 +4,8 @@
 class Demat < Formula
   desc "Turn scanned DEMAT score sheets into structured, queryable records"
   homepage "https://github.com/agherasim/demat-plus-public"
-  url "https://github.com/agherasim/demat-plus-public/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "9c01c8a5e3bc74a083d3f6277858e4646e385fdd486799da9392856fcca37936"
+  url "https://github.com/agherasim/demat-plus-public/archive/refs/tags/v1.1.1.tar.gz"
+  sha256 "6b6bfb932235821075123c19b32a2d9c37d74c46057e57433d97056b5a93cadc"
   head "https://github.com/agherasim/demat-plus-public.git", branch: "main"
 
   depends_on :macos
@@ -24,6 +24,8 @@ class Demat < Formula
     <<~EOS
       Finish the install (API key, Python dependencies, DEMAT+ in ~/Applications):
         demat setup
+      Or, to use your Claude Code login instead of an API key:
+        demat setup --runner agent_sdk
 
       The DEMAT knowledge base is a separate, private install. With access to it:
         git clone git@github.com:agherasim/demat-knowledge-base.git ~/.demat/data/demat-knowledge-base
